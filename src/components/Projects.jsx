@@ -1,13 +1,15 @@
 import React from 'react'
 import rosterImage from '../assets/schedule.png'
 import clock from '../assets/clock.png'
+import cloxk from '../assets/cloxk.png'
+import research from '../assets/research.png'
 
 const projects =[
     {
         id:1,
         name:"Hybrid Roster Scheduling algorithm",
         technologies:"Java and MySQL database",
-        image : rosterImage,
+        image : cloxk,
         github:"https://github.com/IsabellaNweze/ActivEdge-Roster"
     },
     {
@@ -21,7 +23,7 @@ const projects =[
         id:3,
         name:"  Research Paper ",
         technologies:"Google scholar, Questionnaires",
-        image : clock,
+        image : research,
         github:"https://docs.google.com/document/d/16C2d5mDS3NUgyfGE1s8JlCH24V8dW9BMq_nxZozVvCo/edit?usp=sharing"
     },
     {
@@ -52,7 +54,7 @@ const projects =[
 
 const Projects = () => {
   return (
-  <div className='bg-black text-white py-20 ' id='about'> 
+  <div className='bg-black text-white py-20 ' id='projects'> 
     <div className='container mx-auto px-8 md:px-16 lg:px-24'>
         <h2 className='text-4xl font-bold text-center mb-12'>Projects</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>

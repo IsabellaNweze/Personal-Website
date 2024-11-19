@@ -9,7 +9,7 @@ const About = () => {
                 <img src={AboutImage} alt="About page image" className='w-72 h-80 rounded object-cover mb-8 md:mb-0'/>
                 <div className='flex-1'>
                 <p className='text-lg mb-8'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, voluptatem. Modi doloribus earum facilis provident, delectus ut, rerum quas deleniti eaque perspiciatis fugit impedit accusamus voluptas nulla id illo laudantium.
+                I am a dedicated software engineer with a passion for building impactful digital experiences. With a focus on simplicity and functionality, I create solutions that blend innovation with user-centered design.
                 
                 </p>
                 <div className='space-y-4'>
@@ -61,19 +61,19 @@ const About = () => {
 
                     <div>
                       <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-                        50+ 
+                        30+ 
                       </h3>
                       <p>
-                        projects completed
+                        Projects completed
                       </p>
                     </div>
 
                     <div>
                       <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-                        10+
+                        5+
                       </h3>
                       <p>
-                        Happy Clients
+                        Internships completed
                       </p>
                     </div>
                 </div>
